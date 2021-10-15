@@ -1,18 +1,32 @@
 
+# Flight Price Prediction
+
+Ansh Bangia 101803628
+
+Enter details of your flight like source and destination, departure and arrival dates, airline, etc. to find out an appropriate price for your flight.
+
+This will be a regression problem since the target or dependent variable is the price (continuous numeric value). ‘Price‘ will be our dependent variable and all remaining variables can be used as independent variables. ‘Total_Stops‘ can be used to determine if the flight was direct or connecting.
 
 
-# Flight-Price-Predict-Deployment-Heroku
 
-The objective of this article is to predict flight prices given the various parameters. This will be a regression problem since the target or dependent variable is the price (continuous numeric value)
 
-‘Price‘ will be our dependent variable and all remaining variables can be used as independent variables.
+## Live Link
 
-‘Total_Stops‘ can be used to determine if the flight was direct or connecting.
+https://flight-cost-pricing.herokuapp.com/
 
-Live Link: https://flight-price-predict-ritwik.herokuapp.com/
+  
+## Methodology Flowchart
 
-## Flow Chart
 ![FLOW CHART](images/flowchart.png)
+  
+## Optimizations
 
-## Preview
-![](images/ss.png)
+* Modifying the dataset to better use the provided data about date of flight.
+* Tuning of hyper parameters (n_estimators, max_features, max_depth, min_samples_split, min_samples_leaf) of Random Forest Regressor using RandomizedSearchCV.
+
+  
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+  
