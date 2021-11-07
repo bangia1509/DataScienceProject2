@@ -1,13 +1,18 @@
 
-# Customer Lifetime Value Prediction
+# Flight Price Prediction
 
 Ansh Bangia 101803628
 
-This project is designed to predict the CUSTOMER LIFETIME VALUE of four wheeler insurance company using Regression Analysis.
+Enter details of your flight like source and destination, departure and arrival dates, airline, etc. to find out an appropriate price for your flight.
+
+This will be a regression problem since the target or dependent variable is the price (continuous numeric value). ‘Price‘ will be our dependent variable and all remaining variables can be used as independent variables. ‘Total_Stops‘ can be used to determine if the flight was direct or connecting.
+
+
+
 
 ## Live Link
 
-https://customer-lifetime-value.herokuapp.com/
+https://flight-cost-pricing.herokuapp.com/
 
   
 ## Methodology Flowchart
@@ -16,9 +21,8 @@ https://customer-lifetime-value.herokuapp.com/
   
 ## Optimizations
 
-* Data Preprocessing, Data Cleaning
-* Feature Engineering, Outlier Removal
-* Removing Multicollinearity
+* Modifying the dataset to better use the provided data about date of flight.
+* Tuning of hyper parameters (n_estimators, max_features, max_depth, min_samples_split, min_samples_leaf) of Random Forest Regressor using RandomizedSearchCV.
 
   
 ## Screenshots
