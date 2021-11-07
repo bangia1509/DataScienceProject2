@@ -26,7 +26,6 @@ https://flight-cost-pricing.herokuapp.com/
 
   
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/68856038/140651474-4d00327d-e873-498a-978b-c1cb044298b3.png)
 
   
